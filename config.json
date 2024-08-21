@@ -1,0 +1,8 @@
+{
+  "ip": "0.0.0.0",
+  "port": "9090",
+  "use_https": "false",
+  "mongodb_connect_string": "mongodb://localhost:27017",
+  "mongodb_name": "test",
+  "mongodb_collection_name": "users"
+}

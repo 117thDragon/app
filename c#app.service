@@ -1,0 +1,10 @@
+[Unit]
+Description = c-app
+
+[Service]
+RemainAfterExit=true
+ExecStop=/home/admins/c-app/LexusPokus
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
