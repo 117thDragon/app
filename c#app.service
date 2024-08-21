@@ -3,7 +3,7 @@ Description = c-app
 
 [Service]
 RemainAfterExit=true
-ExecStop=/home/admins/c-app/LexusPokus
+ExecStop=/home/admins/app/LexusPokus
 Type=oneshot
 
 [Install]
