@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /home/admins/app && sh ./LexusPokus
+cd /home/admins/app && ./LexusPokus
