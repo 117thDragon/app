@@ -2,9 +2,8 @@
 Description = app
 
 [Service]
-RemainAfterExit=true
-ExecStop=/home/admins/app/start.sh
-Type=oneshot
+Type=sipmle
+ExecStart=/home/admins/app/LexusPokus
 
 [Install]
 WantedBy=multi-user.target
