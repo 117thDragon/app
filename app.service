@@ -4,7 +4,7 @@ Description = app
 
 [Service]
 WorkingDirectory=/home/admins/app
-Type=sipmle
+Type=forking
 ExecStart=/bin/bash /home/admins/app/start.sh
 KillMode=process
 [Install]
