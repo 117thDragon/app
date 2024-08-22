@@ -3,7 +3,7 @@ Description = app
 
 [Service]
 RemainAfterExit=true
-ExecStop=/home/admins/app/LexusPokus
+ExecStop=/home/admins/app/start.sh
 Type=oneshot
 
 [Install]
